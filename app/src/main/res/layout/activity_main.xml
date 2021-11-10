@@ -23,7 +23,6 @@
             android:layout_margin="16dp"
             android:src="@drawable/globeshopping"/>
 
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="86dp"
@@ -83,11 +82,13 @@
             android:textColor="@color/white" />
 
         <Button
+            android:id="@+id/btnRegister"
             android:layout_width="192dp"
             android:layout_height="wrap_content"
             android:background="#0BCABA"
             android:text="Registrar"
-            android:textColor="@color/white"/>
+            android:textColor="@color/white"
+            android:onClick="onRegister"/>
 
     </LinearLayout>
 </LinearLayout>
