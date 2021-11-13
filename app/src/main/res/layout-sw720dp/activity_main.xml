@@ -9,16 +9,16 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="780dp"
+        android:layout_height="505dp"
         android:layout_margin="16dp"
         android:gravity="center_vertical"
         android:orientation="vertical">
 
 
         <ImageView
-            android:layout_width="235dp"
-            android:layout_height="209dp"
+            android:layout_width="347dp"
+            android:layout_height="338dp"
             android:layout_gravity="center"
             android:layout_margin="25dp"
             android:src="@drawable/globeshopping"
@@ -27,8 +27,8 @@
             tools:srcCompat="@drawable/globeshopping" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_height="200px"
             android:layout_gravity="bottom|center_horizontal"
             android:fontFamily="@font/architects_daughter"
             android:rotationX="12"
@@ -36,15 +36,15 @@
             android:textAlignment="center"
             android:textAllCaps="true"
             android:textColor="#17349F"
-            android:textSize="70sp"
+            android:textSize="85sp"
             android:textStyle="bold" />
 
 
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="549dp"
+        android:layout_width="775dp"
+        android:layout_height="1004dp"
         android:layout_margin="16dp"
         android:clickable="true"
         android:clipChildren="true"
@@ -53,8 +53,8 @@
 
 
         <TextView
-            android:layout_width="236dp"
-            android:layout_height="wrap_content"
+            android:layout_width="310dp"
+            android:layout_height="94dp"
             android:text="@string/text_username"
             android:textAlignment="center"
 
@@ -62,43 +62,44 @@
             android:textSize="55sp" />
 
         <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="621dp"
+            android:layout_height="59dp"
             android:gravity="center"
             android:hint="@string/hint_email"
             android:textSize="34sp" />
 
         <TextView
-            android:layout_width="308dp"
-            android:layout_height="78dp"
+            android:layout_width="264dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
             android:text="@string/text_password"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="50sp" />
 
-
         <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="634dp"
+            android:layout_height="60dp"
             android:layout_marginTop="25dp"
             android:layout_marginBottom="10dp"
             android:gravity="center"
-            android:hint="@string/hint_password"
-            android:textSize="34sp" />
+            android:hint="@string/hint_password" />
+
 
         <Button
-            android:layout_width="122dp"
-            android:layout_height="81dp"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="140dp"
+            android:layout_height="94dp"
             android:layout_marginBottom="10dp"
             android:background="#17349F"
             android:text="LOGIN"
             android:textColor="@color/white"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            tools:visibility="visible" />
 
         <Button
-            android:layout_width="123dp"
-            android:layout_height="60dp"
+            android:layout_width="139dp"
+            android:layout_height="80dp"
             android:background="#0BCABA"
             android:backgroundTint="#0AF1E8"
             android:ellipsize="end"
