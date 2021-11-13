@@ -12,7 +12,7 @@
 
     <string name="ini_txt_user">Usuario</string>
 
-    <string name="reg_title">Regístrate</string>
+    <string name="signup">Regístrate</string>
     <string name="reg_hint_name">Nombre(s)</string>
     <string name="reg_hint_lastname">Apellido(s)</string>
     <string name="reg_hint_nit">Nit</string>
@@ -20,5 +20,6 @@
     <string name="reg_hint_phone">Teléfono</string>
     <string name="reg_hint_pass">Contraseña</string>
     <string name="reg_txt_policies">Aceptar Políticas de Privacidad</string>
+    <string name="login">Iniciar</string>
 
 </resources>

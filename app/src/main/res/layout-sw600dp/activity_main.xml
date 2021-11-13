@@ -17,7 +17,7 @@
 
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="60dp"
+            android:layout_height="100dp"
             android:layout_gravity="center"
             android:layout_margin="16dp"
             android:src="@drawable/globeshopping"/>
@@ -28,7 +28,7 @@
             android:layout_gravity="center"
             android:text="Mi Tiendita Online"
             android:textColor="#17349F"
-            android:textSize="34dp"
+            android:textSize="38dp"
             android:textStyle="bold"/>
 
     </LinearLayout>
@@ -38,14 +38,15 @@
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:gravity="center_horizontal"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:paddingHorizontal="50dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/ini_txt_user"
             android:textColor="@color/black"
-            android:textSize="24dp" />
+            android:textSize="30dp" />
 
         <EditText
             android:layout_width="match_parent"
@@ -58,7 +59,7 @@
             android:layout_marginTop="25dp"
             android:text="@string/reg_hint_pass"
             android:textColor="@color/black"
-            android:textSize="24dp"/>
+            android:textSize="30dp"/>
 
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
@@ -79,7 +80,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:gravity="center">
+        android:gravity="center_horizontal"
+        android:layout_marginTop="25dp">
 
         <Button
             android:layout_width="192dp"
@@ -87,17 +89,18 @@
             android:layout_marginBottom="10dp"
             android:background="#17349F"
             android:text="@string/login"
-            android:textSize="16dp"
+            android:textSize="24dp"
             android:textColor="@color/white" />
 
         <Button
+            android:layout_marginTop="20dp"
             android:id="@+id/btnRegister"
             android:layout_width="192dp"
             android:layout_height="wrap_content"
             android:background="#0BCABA"
             android:text="@string/signup"
             android:textColor="@color/white"
-            android:textSize="16dp"
+            android:textSize="24dp"
             android:onClick="onRegister"/>
     </LinearLayout>
 </LinearLayout>
