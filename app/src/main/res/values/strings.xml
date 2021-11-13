@@ -20,5 +20,13 @@
     <string name="reg_hint_pass">Password</string>
     <string name="reg_txt_policies">Accept Privacy Policies</string>
     <string name="login">Login</string>
+    <string name="welcome">Welcome</string>
+    <string name="select">Select an option</string>
+    <string name="products">Products</string>
+    <string name="txt_products">Look to all the available products just for you</string>
+    <string name="favorites">Favorites</string>
+    <string name="txt_favorites">Find your previously bought products</string>
+    <string name="onsale">On sale</string>
+    <string name="txt_onsale">Special offers you can\'t miss out!</string>
 
 </resources>

@@ -21,5 +21,13 @@
     <string name="reg_hint_pass">Contraseña</string>
     <string name="reg_txt_policies">Aceptar Políticas de Privacidad</string>
     <string name="login">Iniciar</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="select">Selecciona una opcion</string>
+    <string name="products">Productos</string>
+    <string name="txt_products">Mira todos los productos disponibles para ti</string>
+    <string name="favorites">Favoritos</string>
+    <string name="txt_favorites">Encuentra productos que compraste anteriormente</string>
+    <string name="onsale">En oferta</string>
+    <string name="txt_onsale">Ofertas especiales que no te puedes perder</string>
 
 </resources>

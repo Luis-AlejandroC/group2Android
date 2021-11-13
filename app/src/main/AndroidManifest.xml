@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.S1c1">
         <activity
+            android:name=".WelcomeActivity"
+            android:exported="false" />
+        <activity
             android:name=".RegisterActivity"
             android:exported="false" />
         <activity
