@@ -1,5 +1,8 @@
 package com.example.s1c1
 
+import android.app.AlertDialog
+import android.content.DialogInterface
+import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
@@ -56,6 +59,17 @@ class RegisterActivity : AppCompatActivity() {
         if(validateForm()){
             Toast.makeText(this, "Registro exitoso", Toast.LENGTH_LONG).show()
             //Pasa a la otra pantalla
+            val positiveButton = { dialog: DialogInterface, which:Int->
+                val intento = Intent(this, WelcomeActivity::class.java)
+                startActivity(intento)
+            }
+
+            val dialog = AlertDialog.Builder(this)
+                .setTitle("Hola")
+                .setMessage("Usuario: "+edtRegEmail!!.text.toString())
+                .setPositiveButton("Ok", positiveButton)
+
+            dialog.create().show()
         }
     }
 

@@ -48,6 +48,7 @@
             android:textSize="24dp" />
 
         <EditText
+            android:id="@+id/edtMainUser"
             android:layout_width="match_parent"
             android:layout_height="71dp"
             android:gravity="center" />
@@ -66,7 +67,7 @@
             app:passwordToggleEnabled="true">
 
             <android.support.design.widget.TextInputEditText
-                android:id="@+id/edtRegPass"
+                android:id="@+id/edtMainPass"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPassword"
@@ -82,13 +83,15 @@
         android:gravity="center">
 
         <Button
+            android:id="@+id/btnLogin"
             android:layout_width="192dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:background="#17349F"
             android:text="@string/login"
             android:textSize="16dp"
-            android:textColor="@color/white" />
+            android:textColor="@color/white"
+            android:onClick="onLogin"/>
 
         <Button
             android:id="@+id/btnRegister"

@@ -88,7 +88,8 @@
             android:background="#17349F"
             android:text="@string/login"
             android:textSize="16dp"
-            android:textColor="@color/white" />
+            android:textColor="@color/white"
+            android:onClick="onLogin"/>
 
         <Button
             android:id="@+id/btnRegister"
