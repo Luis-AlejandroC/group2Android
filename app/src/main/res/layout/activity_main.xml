@@ -9,44 +9,41 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="391dp"
-        android:layout_height="232dp"
-        android:layout_margin="16dp"
-        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:gravity="center"
         android:orientation="vertical">
 
-
         <ImageView
-            android:layout_width="250dp"
-            android:layout_height="103dp"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
             android:layout_gravity="center"
             android:layout_margin="16dp"
             android:src="@drawable/globeshopping"/>
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="86dp"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="Mi Tiendita Online"
             android:textColor="#17349F"
             android:textSize="38dp"
             android:textStyle="bold"/>
 
-
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="389dp"
-        android:layout_height="425dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:gravity="center_horizontal"
         android:orientation="vertical">
 
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Usuario"
+            android:text="@string/ini_txt_user"
             android:textColor="@color/black"
             android:textSize="25dp" />
 
@@ -54,7 +51,7 @@
             android:layout_width="288dp"
             android:layout_height="71dp"
             android:gravity="center"
-            android:hint="email@email-com" />
+            android:hint="nombre@email.com" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -62,7 +59,7 @@
             android:layout_marginTop="25dp"
             android:text="Contraseña"
             android:textColor="@color/black"
-            android:textSize="25dp" />
+            android:textSize="25dp"/>
 
         <EditText
             android:layout_width="288dp"

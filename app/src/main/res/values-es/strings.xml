@@ -10,6 +10,8 @@
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 
+    <string name="ini_txt_user">Usuario</string>
+
     <string name="reg_title">Regístrate</string>
     <string name="reg_hint_name">Nombre(s)</string>
     <string name="reg_hint_lastname">Apellido(s)</string>
@@ -18,4 +20,5 @@
     <string name="reg_hint_phone">Teléfono</string>
     <string name="reg_hint_pass">Contraseña</string>
     <string name="reg_txt_policies">Aceptar Políticas de Privacidad</string>
+
 </resources>
