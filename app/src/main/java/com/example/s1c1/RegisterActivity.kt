@@ -54,9 +54,8 @@ class RegisterActivity : AppCompatActivity() {
 
     fun onRegRegister(view: android.view.View) {
         if(validateForm()){
-            Toast.makeText(this, "Validacion correcta", Toast.LENGTH_LONG).show()
-        }else{
-            Toast.makeText(this, "Validacion incorrecta", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, "Registro exitoso", Toast.LENGTH_LONG).show()
+            //Pasa a la otra pantalla
         }
     }
 
@@ -64,25 +63,42 @@ class RegisterActivity : AppCompatActivity() {
         var onValidate = true
         var inputName : String = edtRegName!!.text.toString().replace(" ", "")
         var inputLastname : String = edtRegLastname!!.text.toString().replace(" ", "")
-        var inputNit : String = edtRegNit!!.text.toString().replace(" ", "")
+        var inputNit : String = edtRegNit!!.text.toString()
+        var inputEmail : String = edtRegEmail!!.text.toString()
+        var inputPhone : String = edtRegPhone!!.text.toString()
+        var inputPass : String = edtRegPass!!.text.toString()
 
-        /*
-        if(TextUtils.isEmpty(inputName)) {
-            edtRegName!!.error = "Campo requerido"
-            onValidate = false
-        }else if(!NAME_PATTERN.matcher(inputName.replace(" ", "")).matches()){
-            edtRegName!!.error = "Solo caracteres"
-            onValidate = false
-        }else edtRegName!!.error = null
-        */
-
+        //Name
         if(!validateField(inputName, edtRegName!!, NAME_PATTERN, "Solo caracteres")){
             onValidate = false
         }
-
+        //Lastname
         if(!validateField(inputLastname, edtRegLastname!!, NAME_PATTERN, "Solo caracteres")){
             onValidate = false
         }
+        //Nit
+        if(!validateField(inputNit, edtRegNit!!, NUMBER_PATTERN, "Solo números")){
+            onValidate = false
+        }
+        //Email
+        if(!validateField(inputEmail, edtRegEmail!!, EMAIL_PATTERN, "No es correo válido")){
+            onValidate = false
+        }
+        //Phone
+        if(!validateField(inputPhone, edtRegPhone!!, NUMBER_PATTERN, "Solo números")){
+            onValidate = false
+        }
+        //Password
+        if(!validateField(inputPass, edtRegPass!!, PASSWORD_PATTERN, "No es contraseña valida")){
+            onValidate = false
+        }
+        //Check policies
+        if(!chkPolicies!!.isChecked())
+        {
+            chkPolicies!!.error = "Acepte politicas de privacidad"
+            onValidate = false
+
+        }else chkPolicies!!.error = null
 
         return onValidate
     }
@@ -98,6 +114,5 @@ class RegisterActivity : AppCompatActivity() {
 
         return true
     }
-
 
 }
