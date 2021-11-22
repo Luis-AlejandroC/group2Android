@@ -3,23 +3,22 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="323dp"
-        android:layout_margin="16dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
         android:gravity="center_vertical"
         android:orientation="vertical">
 
 
         <ImageView
-            android:layout_width="153dp"
-            android:layout_height="138dp"
-            android:layout_gravity="center"
-            android:layout_margin="25dp"
+            android:layout_width="72dp"
+            android:layout_height="71dp"
+            android:layout_margin="5dp"
             android:src="@drawable/globeshopping"
             android:tint="#F383DCCA"
             android:tintMode="multiply"
@@ -27,15 +26,15 @@
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="200px"
-            android:layout_gravity="bottom|center_horizontal"
+            android:layout_height="match_parent"
+            android:layout_gravity="clip_vertical|center_horizontal"
             android:fontFamily="@font/architects_daughter"
             android:rotationX="12"
             android:text="FastMarket"
-            android:textAlignment="center"
+            android:textAlignment="viewEnd"
             android:textAllCaps="true"
             android:textColor="#17349F"
-            android:textSize="75sp"
+            android:textSize="55sp"
             android:textStyle="bold" />
 
 
@@ -43,8 +42,8 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="416dp"
-        android:layout_margin="16dp"
+        android:layout_height="234dp"
+        android:layout_margin="6dp"
         android:clickable="false"
         android:clipChildren="false"
         android:gravity="center_horizontal"
@@ -54,56 +53,58 @@
 
 
         <TextView
-            android:layout_width="212dp"
+            android:layout_width="138dp"
             android:layout_height="wrap_content"
             android:text="@string/text_username"
             android:textAlignment="center"
             android:textColor="@color/black"
-            android:textSize="45sp" />
+            android:textSize="20sp" />
 
         <EditText
-            android:layout_width="621dp"
-            android:layout_height="59dp"
+            android:layout_width="460dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="0sp"
             android:gravity="center"
-            android:hint="@string/hint_email" />
+            android:hint="@string/hint_email"
+            android:textSize="15sp" />
 
         <TextView
-            android:layout_width="264dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="5dp"
             android:text="@string/text_password"
             android:textAlignment="center"
             android:textColor="@color/black"
-            android:textSize="45dp" />
+            android:textSize="20dp" />
 
         <EditText
-            android:layout_width="634dp"
-            android:layout_height="60dp"
+            android:layout_width="470dp"
+            android:layout_height="35dp"
             android:layout_margin="2dp"
             android:gravity="center"
             android:hint="@string/hint_password"
-            android:textSize="25sp" />
+            android:textSize="15sp" />
 
 
         <Button
             style="@style/Widget.AppCompat.Button"
-            android:layout_width="140dp"
-            android:layout_height="wrap_content"
-            android:layout_margin="8dp"
+            android:layout_width="111dp"
+            android:layout_height="32dp"
+            android:layout_margin="15dp"
             android:background="#17349F"
             android:text="LOGIN"
             android:textColor="@color/white"
-            android:textSize="20sp"
+            android:textSize="15sp"
             tools:visibility="visible" />
 
         <Button
-            android:layout_width="124dp"
-            android:layout_height="34dp"
+            android:layout_width="107dp"
+            android:layout_height="28dp"
             android:background="#0BCABA"
             android:shadowColor="#0B0A0A"
             android:text="SIGN UP"
             android:textColor="@color/white"
-            android:textSize="20sp" />
+            android:textSize="15sp" />
 
     </LinearLayout>
 </LinearLayout>

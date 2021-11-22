@@ -8,18 +8,18 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="323dp"
+        android:layout_width="706dp"
+        android:layout_height="144dp"
         android:layout_margin="16dp"
         android:gravity="center_vertical"
         android:orientation="vertical">
 
 
         <ImageView
-            android:layout_width="153dp"
-            android:layout_height="138dp"
-            android:layout_gravity="center"
-            android:layout_margin="25dp"
+            android:layout_width="83dp"
+            android:layout_height="81dp"
+            android:layout_gravity="start"
+            android:layout_margin="15dp"
             android:src="@drawable/globeshopping"
             android:tint="#F383DCCA"
             android:tintMode="multiply"
@@ -27,7 +27,7 @@
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="200px"
+            android:layout_height="100px"
             android:layout_gravity="bottom|center_horizontal"
             android:fontFamily="@font/architects_daughter"
             android:rotationX="12"
@@ -35,16 +35,16 @@
             android:textAlignment="center"
             android:textAllCaps="true"
             android:textColor="#17349F"
-            android:textSize="75sp"
+            android:textSize="30sp"
             android:textStyle="bold" />
 
 
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="416dp"
-        android:layout_margin="16dp"
+        android:layout_width="731dp"
+        android:layout_height="224dp"
+        android:layout_margin="6dp"
         android:clickable="false"
         android:clipChildren="false"
         android:gravity="center_horizontal"
@@ -54,41 +54,42 @@
 
 
         <TextView
-            android:layout_width="212dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/text_username"
             android:textAlignment="center"
             android:textColor="@color/black"
-            android:textSize="45sp" />
+            android:textSize="30sp" />
 
         <EditText
-            android:layout_width="621dp"
-            android:layout_height="59dp"
+            android:layout_width="538dp"
+            android:layout_height="25dp"
             android:gravity="center"
-            android:hint="@string/hint_email" />
+            android:hint="@string/hint_email"
+            android:textSize="12sp" />
 
         <TextView
-            android:layout_width="264dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="10dp"
             android:text="@string/text_password"
             android:textAlignment="center"
             android:textColor="@color/black"
-            android:textSize="45dp" />
+            android:textSize="30dp" />
 
         <EditText
-            android:layout_width="634dp"
-            android:layout_height="60dp"
+            android:layout_width="532dp"
+            android:layout_height="26dp"
             android:layout_margin="2dp"
             android:gravity="center"
             android:hint="@string/hint_password"
-            android:textSize="25sp" />
+            android:textSize="12sp" />
 
 
         <Button
             style="@style/Widget.AppCompat.Button"
-            android:layout_width="140dp"
-            android:layout_height="wrap_content"
+            android:layout_width="128dp"
+            android:layout_height="30dp"
             android:layout_margin="8dp"
             android:background="#17349F"
             android:text="LOGIN"
@@ -98,7 +99,7 @@
 
         <Button
             android:layout_width="124dp"
-            android:layout_height="34dp"
+            android:layout_height="29dp"
             android:background="#0BCABA"
             android:shadowColor="#0B0A0A"
             android:text="SIGN UP"

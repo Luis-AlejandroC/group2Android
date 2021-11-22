@@ -3,14 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Usuario/AndroidStudioProjects/s1c1/app/src/main/res/layout-land/activity_main.xml" value="0.16" />
-        <entry key="..\:/Users/Usuario/AndroidStudioProjects/s1c1/app/src/main/res/layout-sw600dp-land/activity_main.xml" value="0.12817412333736397" />
-        <entry key="..\:/Users/Usuario/AndroidStudioProjects/s1c1/app/src/main/res/layout-sw600dp/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/Usuario/AndroidStudioProjects/s1c1/app/src/main/res/layout-sw720dp-land/activity_main.xml" value="0.12817412333736397" />
-        <entry key="..\:/Users/Usuario/AndroidStudioProjects/s1c1/app/src/main/res/layout-sw720dp/activity_main.xml" value="0.16" />
-        <entry key="..\:/Users/Usuario/AndroidStudioProjects/s1c1/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/s1c1/app/src/main/res/layout-land/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/s1c1/app/src/main/res/layout-sw600dp-land/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/s1c1/app/src/main/res/layout-sw600dp/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/s1c1/app/src/main/res/layout-sw720dp-land/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/s1c1/app/src/main/res/layout-sw720dp/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/s1c1/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/s1c1/app/src/main/res/layout/activity_register.xml" value="0.2125" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/s1c1/app/src/main/res/layout/activity_welcome.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/s1c1/app/src/main/res/layout/content_main.xml" value="0.18206521739130435" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/s1c1/app/src/main/res/layout/fragment_first.xml" value="0.1" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/s1c1/app/src/main/res/layout/register.xml" value="0.2125" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/s1c1/app/src/main/res/menu/menu_main.xml" value="0.18596491228070175" />
       </map>
     </option>

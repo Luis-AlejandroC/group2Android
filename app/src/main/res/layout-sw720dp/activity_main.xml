@@ -44,7 +44,7 @@
 
     <LinearLayout
         android:layout_width="775dp"
-        android:layout_height="1004dp"
+        android:layout_height="712dp"
         android:layout_margin="16dp"
         android:clickable="true"
         android:clipChildren="true"

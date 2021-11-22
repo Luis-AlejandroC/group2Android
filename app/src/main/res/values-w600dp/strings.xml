@@ -1,25 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">FastMarket</string>
-    <string name="text_username">UserName</string>
-    <string name="text_password">Password</string>
-    <string name="hint_password">password</string>
-    <string name="hint_email">email</string>
-    <string name="action_settings">Settings</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
-
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="user">Milena</string>
     <string name="text_welcome">Welcome</string>
     <string name="text_introduction">Introduction</string>
     <string name="text_content">Content</string>
-    <string name="text_singUp">Sign Up</string>
+    <string name="text_singUp" />
     <string name="text_Loging">Login</string>
-    <string name="text_name">Names</string>
+    <string name="text_name">Name</string>
     <string name="text_lastname">Lastname</string>
     <string name="text_ID">ID</string>
     <string name="text_email">Email</string>
